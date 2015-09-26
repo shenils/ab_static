@@ -1,7 +1,14 @@
 #how_works, #faq {
-  
+  min-height: 80vh;
+  padding-top: 2em;
+
   .img-container {
+    background-image: url('../images/headphones.jpg');
+    // width: 100%;
+    background-size: cover;
+    min-height: 80vmin;
     padding: 0;
+    // background-color: black;
   }
 
   h3 {
@@ -9,11 +16,13 @@
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 1em;
-    // padding-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
 
   p {
     font-size: 1.5em;
+    padding-bottom: 1em;
     // margin: 2em 0;
   }
 }

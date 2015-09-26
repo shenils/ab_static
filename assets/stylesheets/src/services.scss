@@ -1,14 +1,14 @@
 #services {
   background-image: url('../images/umbrella.jpg');
   background-size: cover;
-  height: 40vh;
+  min-height: 60vmin;
   background-position: 0 0;
   color: #FFFFFF;
   position: relative;
 
   .service_container {
     position: absolute;
-    bottom: 10em;
+    bottom: 15em;
     left: 3em;
     right: 3em;
   }
